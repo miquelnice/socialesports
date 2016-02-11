@@ -1,0 +1,33 @@
+/*div.slider{
+    height:278px;
+    width: 960px;
+    margin: 0 auto;
+}
+div.slider a.imagen{
+    background: url('../imgs/banner_slider.png') no-repeat left top;
+    height:235px;
+    width: 941px;
+    display: block;
+    box-shadow: 2px 2px 5px rgba(27,100,140,0.2);
+    margin-top: 10px;
+    margin-left: 9px;
+}
+div.slider a.imagen span{
+    display:none;
+}*/
+
+/* Slideshow */
+#slides { clear:both; overflow:hidden; height:285px; width: 940px; margin: 0 auto; }
+.slides_container { float:left; width:940px; height:260px; overflow:hidden; z-index:10;}
+.slides_container a {width:940px; height:235px; display:block; margin-left:0px; margin-top: 10px; border:none; text-decoration:none;}
+.slides_container a img {display:block; border:none;}
+
+/*Next/prev buttons */
+
+#slides .next,#slides .prev {position:relative; float:left; left:1px; top:-160px; width:24px; height:43px; display:block; z-index:101;}
+#slides .next {	position:relative; float:left; left:941px;}
+
+.pagination {margin:0px auto;width:100px;}
+.pagination li {float:left;	margin:0 1px;list-style:none;}
+.pagination li a {	display:block;	width:12px;	height:0;	padding-top:12px;	background-image:url(../imgs/pagination.png);	background-position:0 0;	float:left;	overflow:hidden;}
+.pagination li.current a {	background-position:0 -12px;}

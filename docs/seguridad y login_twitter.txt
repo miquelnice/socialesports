@@ -1,0 +1,9 @@
+http://www.slideshare.net/flaiwebnected/bloque-1-php-y-seguridad-web
+
+SLIDESHARE PHP:
+http://www.slideshare.net/flaiwebnected/presentations
+
+
+TWITTER EN PHP:
+http://www.masquewordpress.com/como-crear-una-aplicacion-de-twitter-con-php/
+http://www.martiniglesias.eu/blog/validacion-de-usuarios-con-oauth-de-twitter-con-php/125#.Tswvz7LiGqM

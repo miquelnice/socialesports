@@ -1,0 +1,45 @@
+    var map = null;
+    var geocoder = null;
+    var blueIcon = new GIcon(G_DEFAULT_ICON);
+    //blueIcon.image = "icon.png";
+    //blueIcon.iconSize = new GSize(16, 16);
+    //blueIcon.shadowSize = new GSize(0, 0);	
+	//Set up our GMarkerOptions object
+	markerOptions = { icon:blueIcon };
+	
+	
+	/* funcion inicial para ubicar los markers con todas las ciudades en el mapa */	
+	  function initialize(lat, lng, zoom) { //al cargar la página inicial
+	      if (GBrowserIsCompatible()) {	    	  
+	        map = new GMap2(document.getElementById("map_canvas"));
+	        map.setCenter(new GLatLng(lat, lng), zoom);
+	        map.addControl(new GSmallMapControl());
+	        
+	        GDownloadUrl("cargamarkers.php", function(data) {
+	            var xml = GXml.parse(data);
+	            var markers = xml.documentElement.getElementsByTagName("marker");
+	            for (var i = 0; i < markers.length; i++) {
+				  var id = markers[i].getAttribute("id");
+				  var nombre = markers[i].getAttribute("nombre");
+	              var calle = markers[i].getAttribute("calle");
+	              var ciudad = markers[i].getAttribute("ciudad");
+	              var point = new GLatLng(parseFloat(markers[i].getAttribute("lat")),
+	            		  parseFloat(markers[i].getAttribute("lng")));
+	              var marker = createMarker(point, nombre, calle, ciudad, id);
+	              map.addOverlay(marker);
+	              
+	            }
+	          });			
+			    
+	      }
+	    }
+
+	  function createMarker(point, nombre, calle, ciudad, id) { //mostrar bubble con pabellon y su direccion 
+	      var marker = new GMarker(point, markerOptions);
+	      var html = "<p style='line-height:25px;'><a target='_blank' style='text-decoration:none;' href='http://maps.google.com/maps?q="+ calle +", "+ ciudad +"'><strong style='color:#E3001B;'>" + nombre + "</strong></a> <br/>" + calle + " - " + ciudad + "</p><br/><p style='float:left; width:auto; color:#E3001B; padding:8px 14px;'><a href='cargapartidos_interior.php?id="+id+"' style='text-decoration:none;'>Acceder al partido<img src='icons/icon.png' title='Acceder al partido' alt='Acceder al partido' style='margin-left:8px;' /></a></p>";
+	      GEvent.addListener(marker, 'click', function() {
+	        marker.openInfoWindowHtml(html);
+	        map.setCenter(point,10); //reubicamos el mapa haciendo zoom hasta 10
+	      });
+	      return marker;
+	    }

@@ -1,0 +1,99 @@
+$asistencia = "SELECT COUNT(*) FROM checkin WHERE id_partido='$id_partido'"; //sacamos la asistencia al partido
+			$query_asis = mysql_query($asistencia, $link);
+				if (@mysql_num_rows($query_asis)){
+					while ($pn = mysql_fetch_row($query_asis))
+					{		
+						echo "<div style='float:left; margin-top:10px; height:100%; width:299px;'>";
+							echo "<img src='icons/group.png' style='float:left; margin-right:5px;' />";
+							echo "<p style='font-size:14px; text-align:left; float:left; margin-top:0px;'>Asistiran <strong><span style='font-size:16px;'> ".$pn[0]."</span></strong> usuarios</p></div>";									
+					}
+				}//fin asistencia
+
+
+
+
+
+
+
+
+echo '<div style="float:right; text-align:left; margin-top:8px; width:155px; padding: 3px; text-transform: uppercase; background-color: #226c94; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">';
+					$q = "SELECT * FROM pabellon WHERE id='$id'";
+					$query_equips = mysql_query($q, $link);
+					if (@mysql_num_rows($query_equips)){	
+						while ($row = mysql_fetch_row($query_equips))
+							{ 	
+					$aux_elSalon2 = str_replace("'", " ","<p style='line-height:25px;'><a target='_blank' style='text-decoration:none;' href='http://maps.google.com/maps?q=".rawurlencode($row[2].", ".$row[5].", ".$row[3].", ".$row[8])."'><strong style='color:#226c94;'>".$row[1]."</strong></a><br />".$row[2]." - " .$row[3]."</p><p style='float:left; width:auto; margin:0px;'><a href='cargapartidos_interior.php?id=$row[0]' style='text-decoration:none; color:#226c94;'>Acceder al partido</a></p>");
+					?>
+					<a href="javascript:void(0)" onclick="loadMapInfo('<?php echo $row[6]?>', '<?php echo $row[7]?>', '<?php echo $aux_elSalon2?>', '<?php echo $row[9]?>');" title="Mostrar ubicacion en el mapa" style="float:left; color:#fff; text-decoration:none; font-size:14px; padding:8px 14px;">Ubicar en el mapa</a>
+					<?php }
+					}
+					echo '</div>';		
+			
+
+
+
+
+
+
+
+//inicio votos ganador			
+			$local = "SELECT partido.local, equipo.id, equipo.categ, club.id, club.nombre, club.img, partido.id FROM partido, equipo, club WHERE partido.id = $id_partido AND equipo.id = partido.local AND equipo.id_club = club.id"; //equipo local
+			$query_local = mysql_query($local, $link);
+			
+			$visitant="SELECT partido.visitante, equipo.id, equipo.categ, club.id, club.nombre, club.img, partido.id FROM partido, equipo, club WHERE partido.id = $id_partido AND equipo.id = partido.visitante AND equipo.id_club = club.id"; //equipo visitante
+			$query_visitant = mysql_query($visitant, $link);
+			
+			$consult= "SELECT * FROM partido WHERE id=$id_partido"; //votos por partido
+			$dada = mysql_query($consult, $link);
+			$total = 0;
+			if ((@mysql_num_rows($query_local))&&(@mysql_num_rows($query_visitant)&&(@mysql_num_rows($dada)))){
+				while ($row = mysql_fetch_row($query_local) and $row2 = mysql_fetch_row($query_visitant) and $tra = mysql_fetch_array($dada)){			
+			
+			$total1 += $tra["valor1"]; //suma total1
+			$total2 += $tra["valor2"]; //suma total2
+			
+			$total = $total1 + $total2; //suma total1 y total2 y se guarda en total
+			
+			if ($total>0){
+				$tantpercent1 = ($total1 * 100) / $total; // % de total1 sobre total
+				$tantpercent2 = ($total2 * 100) / $total; // % de total2 sobre total
+			}
+			 
+			?>
+            
+                     
+			<div style="float:left; text-align:left; margin-top:15px; width:300px;">
+				<div style='float:left; width:auto; margin-right:5px; height:auto; margin-top:8px;'>
+					<img src="icons/ganador.png" title="Ganador" style='float:left; width:30px;' />
+					<p style="float:left; text-align:left; font-size:14px; width:195px; margin:0px;"><strong>Quién será el ganador?</strong> Así opinan nuestros usuarios:</p>
+				</div>
+			
+			<div style="float:left; margin-top:10px; width:200px; margin-left:35px; margin-bottom:10px;">    
+				<div style="float:left; width:100px;"> <!-- equipo local -->
+					<div style='float:left; width:30px; border:1px solid #000; margin-right:5px; height:auto;'><img src="<?php echo $row[5]; ?>" alt="<?php echo $row[2]." ".$row[4]; ?>" title="<?php echo $row[2]." ".$row[4]; ?>" style="width:30px; float:left;"/></div>
+					<p style="float:left; text-align:left; font-size:20px; font-weight:bold; margin:0px;"><?php echo $tra["valor1"]; ?></p>
+                    <p style="float:left; text-align:left; font-size:14px; font-weight:bold; margin:0px;"><?php if ($total>0){ echo round($tantpercent1,2)." %";}?></p>
+				</div>
+				
+				<div style="float:left; width:100px;"> <!-- equipo visitante -->  
+					<div style='float:left; width:30px; border:1px solid #000; margin-right:5px; height:auto;'><img src="<?php echo $row2[5]; ?>" alt="<?php echo $row2[2]." ".$row2[4]; ?>" title="<?php echo $row2[2]." ".$row2[4]; ?>" style="width:30px;" /></div>
+					<p style="float:left; text-align:left; font-size:20px; font-weight:bold;margin:0px;"><?php echo $tra["valor2"]; ?></p>
+					<p style="float:left; text-align:left; font-size:14px; font-weight:bold;margin:0px;"><?php if ($total>0){ echo round($tantpercent2,2)." %";}?></p>
+				</div>
+			</div>
+        </div>
+		<?php }} //fin votos ganador
+
+
+
+
+
+<?php if($_SESSION["access"]==true){ //si esta registrado, tiene acceso
+		//echo $_SESSION["usuario"];
+		echo "<div style='float:right; text-align:left; margin-top:8px; padding:8px 14px; width:162px; text-transform: uppercase; background-color: #226c94; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding:0px;' id='acceso-partido'><p style='font-size:14px; margin-left:14px;'><a href='partido.php?id=".$id_partido."' style='text-decoration:none; color:#fff;'>Acceder al partido</a></p></div>";	
+	
+	}else { //si no esta registrado, no tiene acceso
+		
+		echo "<div style='float:right; text-align:left; border:2px solid #226c94; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin-top:8px; width:155px;' id='acceso-partido'><p style='font-size:14px; color:#226c94; padding:8px 14px;'>Debes estar registrado para tener acceso a los partidos.</p></div>";	
+	
+	}	//fin if access

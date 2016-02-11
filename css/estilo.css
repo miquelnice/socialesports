@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'FSAlbert';
+    src: url('../fonts/FSAlbert/FSAlbReg.otf') format ('otf'); 
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {    
+    font-family: 'Brannbol';
+    src: url('../fonts/Brannbol/BrannbollFet.ttf'); 
+
+}   
+@font-face {    
+    font-family: 'DSdigital';
+    src: url('../fonts/DSdigital/DS-DIGI.TTF'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+    font-family: 'Trebuchet';
+    src: url('../fonts/TrebuchetMS/trebucbd.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix{
+    clear:both;
+}
+
+body{
+    font-family: "FSAlbert";
+    margin:0px;
+    padding: 0px;
+    background: url('../imgs/fondo_base_web.png') repeat left top #d9dadb;
+}
+
+
+/* Estilos Cabecera y menu */
+
+div.header{
+    background: url('../imgs/fondo_cabecera.png') repeat-x top left;
+    height: 225px;/*125*/
+    padding-top: 1px;
+}
+
+div.header div.cabecera{
+    margin: 0 auto;
+    width: 960px;
+}
+
+div.header div.cabecera a.logo{
+    background: url('../imgs/logo_socialesports.png') no-repeat left center;
+    width: 301px;
+    height: 59px;
+    display: block;
+    float: left;
+    padding-bottom: 18px;
+    margin-left: 10px;
+}
+div.header div.cabecera a.logo span{
+    display: none;
+}
+
+div.header div.cabecera form{
+    width: auto;
+    float:right;
+    margin-top:10px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    clear:right;
+}
+
+div.header div.cabecera div.acceso{
+    float:right;
+    clear:right;
+	width:280px;
+	position:relative;
+}
+div.header div.cabecera div.acceso a.empresas{
+    height: auto;
+    display:block;
+    float:left;
+	margin-top:1px;
+	margin-right:15px;
+	padding:6px 0px;
+	font-family: 'Trebuchet'; font-size: 12px; background-color:#4A9DCA; color:#fff; font-weight: bold; border:none; width:120px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-weight:bold; border-radius: 4px; text-align:center; text-decoration:none;
+}
+
+div.header div.cabecera div.acceso a.boton_login{
+    background: url('../imgs/login_icon.png') no-repeat left top;
+    width: 36px;
+    height: 35px;
+    display:block;
+    float:left;
+}
+div.header div.cabecera div.acceso a.boton_login span{
+    display: none;
+}
+div.header div.cabecera div.acceso p.login{
+    margin-top:8px;
+    padding-top:0px;
+}
+div.header div.cabecera div.acceso p.login,div.header div.cabecera div.acceso p.login a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+	margin-left:15px;
+}
+div.header div.cabecera div.acceso p.login a:hover{
+    text-decoration: underline;
+}
+
+form#login{
+	float:left;
+	width:160px;
+	height:auto;
+	margin:0px;
+}
+
+input#submit{
+	font-family: "Trebuchet";
+	color:#fff;
+	font-size: 11px;	
+	float:left; 
+	background-color:#226c94;
+	font-weight: bold;
+	border:none;
+	width:120px;
+	margin-left:8px;
+	cursor:pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#recuperar{
+	font-size:10px;
+	font-family: "Trebuchet";
+	margin-top:8px;
+	color: #226c94;
+}
+#logout{
+	font-family: "Trebuchet";
+	color:#fff;
+	font-size: 11px;	
+	float:left; 
+	background-color:#226c94;
+	font-weight: bold;
+	border:none;
+	width:90px;
+	cursor:pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+a#logout{
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+
+div.header div.cabecera div.menu{
+    background: url('../imgs/fondo_menu.png') repeat-x left top;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+    clear: both;
+    height: 50px;
+    width: 940px;
+    margin-left: 10px;
+	float:left;
+	z-index:0;
+	top:177px;/*77*/
+	position:absolute;
+}
+div.header div.cabecera div.menu ul.menu_web{
+    width: 940px;
+    margin: 0px;
+    padding: 0px;
+	
+}
+div.header div.cabecera div.menu ul.menu_web li{
+    display: inline;
+    float: left;
+    list-style-type: none;
+    width: 125px;
+}
+div.header div.cabecera div.menu ul.menu_web li a.current{
+	background: url('../imgs/li_hover.png') no-repeat center bottom;
+    color:#ccc;
+    text-shadow: 1px 1px solid #fff;
+}
+/*div.header div.cabecera div.menu ul.menu_web li.current a:hover{
+    background: none;
+}
+div.header div.cabecera div.menu ul.menu_web li.eventos a{
+    padding-top: 17px;
+}
+div.header div.cabecera div.menu ul.menu_web li.eventos a span{
+    font-size: 14px;
+}
+div.header div.cabecera div.menu ul.menu_web li.sobre a{
+    padding-bottom: 6px;
+    padding-top: 4px;
+}
+div.header div.cabecera div.menu ul.menu_web li.sobre a span{
+    font-size: 15px;
+}*/
+div.header div.cabecera div.menu ul.menu_web li.twitter img{
+    float: left;
+    margin-left: 10px;
+    padding-top: 12px;
+}
+div.header div.cabecera div.menu ul.menu_web li.twitter a{
+    display: block;
+    margin-left: 5px;
+    padding: 15px 0 33px 0;
+    width: 150px;
+}
+div.header div.cabecera div.menu ul.menu_web li.twitter a span{
+    float: left;
+}
+
+div.header div.cabecera div.menu ul.menu_web li.separador_menu{
+    background: url('../imgs/menu_separador.png') no-repeat left center;
+    width:2px;
+    height: 34px;
+    margin-top: 6px;
+}
+div.header div.cabecera div.menu ul.menu_web li a{
+    color: #FFFFFF;
+    display: block;
+    font-family: "Trebuchet";
+    font-size: 14px;
+    padding: 17px 0 13px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px solid #226c94;
+}   
+div.header div.cabecera div.menu ul.menu_web li a:hover{
+	background: url('../imgs/li_hover.png') no-repeat center bottom; 
+}
+/*div.header div.cabecera div.menu ul.menu_web li a.current{
+    
+    color:#ccc;
+    text-shadow: 1px 1px solid #fff;
+}*/
+
+/* Estilos Slider estan en global.css*/
+
+
+
+/* Estilos Contenido */
+
+div.content{
+    background: url('../imgs/fondo_base_contenido.png') repeat top left;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    box-shadow: -2px -2px 5px rgba(27,100,140,0.2);
+}
+div.content div.contenido{
+    width: 960px;
+    margin: 0 auto;
+}
+div.content div.contenido h1.elige{
+    background: url("../imgs/flecha.png") no-repeat scroll 930px bottom transparent;
+    color: #4A9DCA;
+    font-family: 'Brannbol';
+    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+	width:960px;
+	z-index:0;
+
+}
+
+h3 {
+	color: #4A9DCA;
+    font-family: 'Brannbol';
+    font-size: 22px;
+    margin: 0px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #FFFFFF;
+	width:400px;
+	z-index:0;
+	padding-top:20px;
+	padding-left:20px;}
+
+div.content div.contenido div.buscadores{height:50px;}
+
+div.content div.contenido div.buscadores select{
+    border: 0 none;
+    border-radius: 3px;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(27, 100, 140, 0.4);
+    color: #4A9DCA;
+    font-family: "FSAlbert";
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    /*padding-top: 3px;*/
+    width: 290px;
+}
+
+div.content div.contenido div.buscadores select#city{
+    margin-left: 30px;
+	float:left;
+}
+div.content div.contenido div.buscadores select#deportes{
+    margin-left: 0px;
+	float:left;
+}
+div.content div.contenido div.buscadores select#pabellon{
+    margin-left: 30px;  
+	float:left;  
+}
+div.content div.contenido div.mapa_sup{
+    background: url('../imgs/sobra_sup.png')no-repeat center top;
+    padding-top: 7px;
+    
+}
+div.content div.contenido div.mapa_sup div.mapa_inf{
+    background: url('../imgs/sobra_inf.png')no-repeat center bottom;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+div.content div.contenido div.mapa_sup div.mapa_inf div.mapa{
+    display:block;    
+}
+div.content div.contenido div.mapa_sup div.mapa_inf div.mapa img{
+    margin-left: 9px;
+    display: block;
+    
+}
+
+div.content div.fondo_resultados{
+    /*background: url('../imgs/fondo_resultados.png') repeat-x top left;    */
+    width: auto;
+    height: 280px;
+    padding-top: 0px;
+   
+}
+div.content div.fondo_resultados div.resultados{
+    width: 960px;
+    margin: 0 auto;
+}
+div.content div.fondo_resultados div.resultados h2{
+    color: #4A9DCA;
+    font-family: 'Brannbol';
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+/* Sub-pie Demo */
+
+div.content div.fondo_demo{
+    background: url('../imgs/fondo_demo.png') repeat-x left top;
+    width: auto;
+    height: 190px;
+    /*margin-top: 100px;*/
+	margin-top:100px;
+    box-shadow: -2px -2px 5px rgba(27, 100, 140, 0.2);
+}
+div.content div.fondo_demo div.demo{
+    margin: 0 auto;
+    width: 960px;
+}
+div.content div.fondo_demo div.demo img.andro{
+    height: 31px;
+    margin-left: 460px;
+    margin-top: -27px;
+    padding-bottom: 0;
+    position: relative;
+    width: 55px;
+}
+
+div.content div.fondo_demo div.demo a.img_demo{
+    background: url("../imgs/smartphone.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 305px;
+    margin-left: 170px;
+    margin-top: -65px;
+    position: absolute;
+    width: 154px;
+	z-index:100;
+}
+div.content div.fondo_demo div.demo a.img_demo span{
+    display:none;
+}
+div.content div.fondo_demo div.demo p.p1{
+    color: #4082A6;
+    font-family: 'FSAlbert';
+    font-size: 18px;
+    margin-left: 345px;
+    padding-top: 5px;
+    width: 265px;
+}
+div.content div.fondo_demo div.demo p.p2{
+    color: #4082A6;
+    font-family: 'FSAlbert';
+    font-size: 18px;
+    margin-left: 375px;
+    width: 265px;
+}
+/*div.content div.fondo_demo div.demo a.boton_demo{
+    background: url("../imgs/boton_izq.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'FSAlbert';
+    font-size: 18px;
+    height: 32px;
+    margin-left: 400px;
+    margin-top: 0;
+    padding-left: 13px;
+    padding-top: 5px;
+    text-decoration: none;
+    width: 90px;
+    text-shadow: 1px 1px #3a6378;
+}
+div.content div.fondo_demo div.demo a.boton_demo span{
+    background: url("../imgs/boton_der.png") no-repeat scroll right top transparent;
+    height: 32px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+}*/
+div.content div.fondo_demo div.demo a.boton_demo:hover{
+    text-decoration:underline;
+}
+
+#wrap{
+text-align:left; 
+width:960px; 
+margin:0px auto; 
+}
+
+/* Estilos Pie */
+div.footer{
+    background: url('../imgs/fondo_pie.png') repeat-x left top;
+    width: 100%;
+    height: 133px; /* 230*/
+	float:left;
+	margin-top:0px; /*-100*/
+	position:relative;
+}
+div.footer div.pie{
+    margin: 0 auto;
+    width: 960px;
+}
+
+div.footer div.pie p.texto_pie{
+    color: #FFFFFF;
+    /*float: left;*/
+    font-size: 14px;
+    margin: 0px auto;
+    padding-top: 70px; /* 100 */
+	text-align:center;
+}
+div.footer div.pie p.texto_pie a{
+    color:#fff;
+    text-decoration: none;
+}
+div.footer div.pie p.texto_pie a:hover{
+    text-decoration: underline;
+}
+div.footer div.pie img.separador_pie{
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+div.footer div.pie a.pie_tuiter img{
+    float: left;
+    margin-top: 25px;
+}
+div.footer div.pie a.pie_tuiter span{
+    color: #fff;
+    float: left;
+    margin-left: 5px;
+    padding-top: 28px;
+}
+div.footer div.pie a.pie_tuiter span:hover{
+    text-decoration: underline;
+}
+div.footer div.pie div.separador_horizontal{
+    border-bottom: 1px solid #8b8b8b;
+    border-top: 1px solid #fff;
+    height: 0;
+    text-align: right;
+    max-width: 940px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+div.footer div.pie div.separador_horizontal span{
+    display: none;
+}
+div.footer div.pie p.colaboran{
+    color: #FFFFFF;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 365px;
+    width: 960px;
+}
+div.footer div.pie p.colaboran span{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+div.footer div.pie p.colaboran a{
+    float: left;
+}
+div.footer div.pie p.colaboran a.yuzz{
+    background: url("../imgs/logo_yuzz.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 48px;
+    margin-top: 10px;
+    width: 112px; 
+}
+div.footer div.pie p.colaboran a.yuzz span{
+    display:none;
+}
+
+
+h1.colaboradores{
+	color: #4A9DCA;
+    font-family: 'Brannbol';
+    font-size: 22px;
+    margin: 0px;
+    padding-bottom: 0px;
+	margin:0px auto;
+	width:960px;
+}
+.fase{float: left; width: 250px; margin-left: 40px;}
+
+/* estilo comentarios partido */
+ol.timeline{ list-style:none; }
+ol.timeline li{ position:relative; border:2px #dedede solid; padding:8px; font-size:11px; margin-bottom:5px; text-align:left; }
+ol.timeline li:first-child{}
+.morebox{font-weight:bold; color:#E3001B; text-align:center; border:solid 2px #4A9DCA; padding:8px; margin-left:0px; margin-top:8px; margin-bottom:8px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+.morebox a{ color:#4A9DCA; text-decoration:none; font-size:14px;}
+.morebox a:hover{ color:#4A9DCA; text-decoration:none; font-size:14px;}
+#container{margin-left:0px; width:500px; float:left; margin-top:0px;}

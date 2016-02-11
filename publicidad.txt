@@ -1,0 +1,6 @@
+<!-- publicidad -->
+     <div id="publicidad_top" style="margin:0px auto; height:90px; width:940px; padding-bottom:10px;">
+     	<div id="banner_top" style="height:90px; width: 728px; background-color:#0F6; margin-top:10px; float:left;">Publicidad</div>
+     	<div id="banner_top_right" style="height:90px; width: 200px; background-color:#0F6; margin-top:10px; margin-left:12px; float:left;">Publicidad</div>
+     </div>
+     <!-- fin publicidad -->

@@ -1,0 +1,1265 @@
+<zuiprezi>
+  <version>4</version>
+  <zui-table>
+    <settings>
+      <autoplay>
+        <delay>4000</delay>
+      </autoplay>
+      <bounds x="-22187.312976055553" y="-32775.7141512687" width="44374.625952111106" height="65551.41130775315"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>es</language>
+      </languages>
+    </settings>
+    <object id="21" type="button" x="0" y="15943.942484994026" r="0" s="42.74188591033626">
+      <type>invisible</type>
+      <size>
+        <w>999.788031914894</w>
+        <h>749.1499999999999</h>
+      </size>
+    </object>
+    <object id="13" type="shape" x="-2290.35" y="7740.85" r="41.431886963155996" s="24.185948639163755" class="line4">
+      <geom type="arrow">
+        <sp>63.87284836463097 10.080000000000016</sp>
+        <ep>-63.87284836463097 10.07999999999998</ep>
+        <b>20.159999999999997</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="14" type="shape" x="6123.3" y="5926.5" r="-9.375310006098074" s="24.185951467840866" class="line4">
+      <geom type="arrow">
+        <sp>-61.46207283490757 9.030000426633276</sp>
+        <ep>61.46207283490757 9.030000426633276</ep>
+        <b>-18.06000085326655</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="15" type="shape" x="4870.95" y="12908.6" r="3.9771889726458887" s="24.185952512986447" class="line4">
+      <geom type="arrow">
+        <sp>-54.28930735102486 10.724999999999996</sp>
+        <ep>54.28930735102486 10.724999999999996</ep>
+        <b>-21.449999999999992</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="16" type="shape" x="-5754.85" y="12659.7" r="-3.1519866492784647" s="24.185949365761044" class="line4">
+      <geom type="arrow">
+        <sp>57.132618367059514 6.405000000000002</sp>
+        <ep>-57.132618367059514 6.404999999999999</ep>
+        <b>12.81</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="11_4382269" type="image" x="0" y="23340.410537291" r="0" s="75.34408637963281">
+      <source w="301" h="59">173006435.png<url>173006435.png</url>
+      </source>
+      <sourceUrl>logo_socialesports.png</sourceUrl>
+    <resource><id>
+        173006435
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/5/4/4c626c0f7257dae1bbebeba4931437e0a58b9.png</url></resource></object>
+    <object id="3_9551008" type="label" x="-116.05" y="27811.9" r="0" s="87.20706939697266" class="head">
+      <textfield>
+        <x>-113.15</x>
+        <y>-16.9</y>
+        <text><![CDATA[Red social deportiva]]></text>
+        <annotations>r0-20 { color: #318bff; }
+r0-20 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_4380890" type="button" x="-10529.8" y="14259.35" r="-5.074936498353578" s="6.512771794019292" class="circle">
+      <type>circle</type>
+      <size>
+        <w>886.3</w>
+        <h>886.3</h>
+      </size>
+    </object>
+    <object id="12_4382269" type="image" x="377.2" y="12239.25" r="0" s="32.39793395996094">
+      <source w="300" h="500">173007341.png<url>173007341.png</url>
+        <mask x="14" y="28" w="272" h="449"/>
+      </source>
+      <sourceUrl>imago.png</sourceUrl>
+    <resource><id>
+        173007341
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/7/6/793fa4352914d13185020ebb5edc9af3bb492.png</url></resource></object>
+    <object id="9" type="label" x="-10091.7" y="13203" r="-5.020078133446183" s="4.088162002874383" class="head">
+      <textfield>
+        <x>-100.55</x>
+        <y>-106.45</y>
+        <text><![CDATA[Futbol - 124.583
+Baloncesto - 78.656
+Rugby – 3.406
+Hockey – 3.207
+Balonmano - 9.405
+Tenis - 35.293
+Voleibol - 7.919]]></text>
+        <annotations>r0-17 { align: left; }
+r17-37 { align: left; }
+r37-51 { align: left; }
+r51-66 { align: left; }
+r66-84 { align: left; }
+r84-99 { align: left; }
+r99-115 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="10" type="label" x="-10712.45" y="12178.8" r="-5.074937780607298" s="9.48107110497529" class="head">
+      <textfield>
+        <x>-108.3</x>
+        <y>-16.9</y>
+        <text><![CDATA[Estudio de mercado]]></text>
+        <annotations>r0-18 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="2_4380890" type="button" x="-7246.7" y="5005.3" r="-5.074936498353578" s="6.512771794019292" class="circle">
+      <type>circle</type>
+      <size>
+        <w>880.2750000000003</w>
+        <h>880.2750000000003</h>
+      </size>
+    </object>
+    <object id="0_360657" type="button" x="-7187.6" y="5676.6" r="-5.019569205409271" s="18.63247400181272" class="circle">
+      <type>circle</type>
+      <size>
+        <w>195.075</w>
+        <h>195.075</h>
+      </size>
+    </object>
+    <object id="4_4380890" type="label" x="-7437.5" y="2809" r="-5.074939159009922" s="9.481069210376289" class="head">
+      <textfield>
+        <x>-73.55</x>
+        <y>-16.9</y>
+        <text><![CDATA[Organización]]></text>
+        <annotations>r0-12 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="6_4380890" type="button" x="11309.773511707706" y="6046.976000709728" r="-5.0749368835983395" s="6.512771625846755" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="2_12857660" type="image" x="10377.45" y="6128.75" r="-5.019941452160658" s="1.409001379397871">
+      <source w="1263" h="1642">176020964.jpeg<url>176020964.jpeg</url>
+      </source>
+      <sourceUrl>Socialesports_1339412370001.jpeg</sourceUrl>
+    <resource><id>
+        176020964
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/e/c/2a59c890f0a94e7a6e44fe418b69603a5867c.jpeg</url></resource></object>
+    <object id="3_12857660" type="image" x="12506.55" y="5941.35" r="-5.020076149167288" s="1.4175215764672824">
+      <source w="1263" h="883">176021900.jpeg<url>176021900.jpeg</url>
+      </source>
+      <sourceUrl>Socialesports - Cupones_1339412612650.jpeg</sourceUrl>
+    <resource><id>
+        176021900
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/b/a/32f3b9ce4f8c663ae8faa50ebe778382f6298.jpeg</url></resource></object>
+    <object id="7_4380890" type="label" x="11175.5" y="4529.85" r="-5.074936905967147" s="8.019759922403635" class="head">
+      <textfield>
+        <x>-174.35</x>
+        <y>-16.9</y>
+        <text><![CDATA[Publicidad + Cupones descuento]]></text>
+        <annotations>r0-30 { color: #318bff; }
+r0-30 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_4380890" type="label" x="11138.85" y="4115.05" r="-5.074937780607298" s="9.48107110497529" class="head">
+      <textfield>
+        <x>-99.1</x>
+        <y>-16.9</y>
+        <text><![CDATA[Modelo de negocio]]></text>
+        <annotations>r0-17 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="3_4382269" type="button" x="2215.65" y="7110.05" r="-5.074087631696648" s="4.651957319675823" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="0_4386293" type="image" x="2965.7" y="8170.500000000001" r="-5.001936662597362" s="1.420079675680181">
+      <source w="154" h="305">173019451.png<url>173019451.png</url>
+      </source>
+      <sourceUrl>smartphone.png</sourceUrl>
+    <resource><id>
+        173019451
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/2/5/8266d4a2acc8596054a14e75430de8f182206.png</url></resource></object>
+    <object id="1_4386293" type="image" x="2106.2000000000003" y="8246.150000000001" r="-5.0022498121477925" s="2.764866496394268">
+      <source w="430" h="344">173019738.png<url>173019738.png</url>
+      </source>
+      <sourceUrl>laptop.png</sourceUrl>
+    <resource><id>
+        173019738
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/5/d/89472b71647440a570616aa2814687a396edd.png</url></resource></object>
+    <object id="2_4386293" type="image" x="2106.1" y="8246.150000000001" r="-5.00260418994152" s="2.0145985290745707">
+      <source w="301" h="59">173020184.png<url>173020184.png</url>
+      </source>
+      <sourceUrl>logo_socialesports.png</sourceUrl>
+    <resource><id>
+        173020184
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/8/f/d1036ae667dc5a5b1ca77a6677204efacaa37.png</url></resource></object>
+    <object id="4_4382269" type="label" x="2417.9" y="6971.55" r="-5.0740869660888" s="5.728373523752877" class="head">
+      <textfield>
+        <x>-271.1</x>
+        <y>-136.3</y>
+        <text><![CDATA[Red social
+Localizador de eventos deportivos:
+de formación
+amateur
+de base
+Qué sucede en tiempo real en cada partido
+2 entornos: web y app móvil
+Nexo de unión entre aficionados
+Integración deportes en 1 plataforma]]></text>
+        <annotations>r0-11 { bullet: true; }
+r0-11 { align: left; }
+r0-11 { blockIndent: 36; }
+r11-46 { bullet: true; }
+r11-46 { align: left; }
+r11-46 { blockIndent: 36; }
+r46-59 { bullet: true; }
+r46-59 { align: left; }
+r46-59 { blockIndent: 72; }
+r59-67 { bullet: true; }
+r59-67 { align: left; }
+r59-67 { blockIndent: 72; }
+r67-75 { bullet: true; }
+r67-75 { align: left; }
+r67-75 { blockIndent: 72; }
+r75-117 { bullet: true; }
+r75-117 { align: left; }
+r75-117 { blockIndent: 36; }
+r117-145 { bullet: true; }
+r117-145 { align: left; }
+r117-145 { blockIndent: 36; }
+r145-177 { bullet: true; }
+r145-177 { align: left; }
+r145-177 { blockIndent: 36; }
+r177-213 { bullet: true; }
+r177-213 { align: left; }
+r177-213 { blockIndent: 36; }</annotations>
+      </textfield>
+    </object>
+    <object id="5_4382269" type="label" x="2119.5" y="6019.5" r="-5.0740877425374835" s="6.7721616095695" class="head">
+      <textfield>
+        <x>-129.15</x>
+        <y>-16.9</y>
+        <text><![CDATA[Definición del proyecto]]></text>
+        <annotations>r0-23 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="7_4382269" type="button" x="10128.841400210506" y="14597.341617427852" r="-5.073924462511594" s="6.512802099071264" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="9_4382269" type="label" x="10003.45" y="13167.2" r="-5.073924888604366" s="9.481115582068224" class="head">
+      <textfield>
+        <x>-164.2</x>
+        <y>-16.9</y>
+        <text><![CDATA[Estudio económico-financiero]]></text>
+        <annotations>r0-28 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="3_5132805" type="button" x="-10147.55" y="15973.45" r="0" s="2.4903106689453125">
+      <type>invisible</type>
+      <size>
+        <w>893.3333333333334</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="0_4387032" type="label" x="-10338.8" y="15475.55" r="-5.020046468457374" s="5.726753305470764" class="head">
+      <textfield>
+        <x>-137.25</x>
+        <y>-16.9</y>
+        <text><![CDATA[Estrategias comerciales]]></text>
+        <annotations>r0-23 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_4387985" type="image" x="-11738.524515257914" y="13082.436690097356" r="-5.00325756334955" s="2.774885703949169">
+      <source w="530" h="252">173026807.png<url>173026807.png</url>
+      </source>
+      <sourceUrl>edad.png</sourceUrl>
+    <resource><id>
+        173026807
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/b/6/4e77ebfcb5a8a930049467051e90395d50203.png</url></resource></object>
+    <object id="2_4387985" type="label" x="-9858.65" y="12557.15" r="-5.020046468457374" s="5.726753305470764" class="head">
+      <textfield>
+        <x>-123.2</x>
+        <y>-16.9</y>
+        <text><![CDATA[Licencias en Cataluña]]></text>
+        <annotations>r13-21 { color: #318bff; }
+r0-21 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="2_5132805" type="button" x="-10490.85" y="14751.8" r="0" s="1.8954039156613012">
+      <type>invisible</type>
+      <size>
+        <w>2557.6642335766423</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="6_4392539" type="image" x="-11412.6" y="14786.95" r="-5.002391103566802" s="2.9297076647382414">
+      <source w="899" h="321">173052845.png<url>173052845.png</url>
+        <mask x="4" y="7" w="891" h="314"/>
+      </source>
+      <sourceUrl>ventas.png</sourceUrl>
+    <resource><id>
+        173052845
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/e/5/1ac020ad43e2b91d3c1cdb68f63dc72c13b63.png</url></resource></object>
+    <object id="3_4387985" type="label" x="-11650.64186542424" y="13771.849976311178" r="-5.01998528125966" s="4.834518252625583" class="head">
+      <textfield>
+        <x>-190.6</x>
+        <y>-61.7</y>
+        <text><![CDATA[77% tienen smartphone
+83% seguidores de ligas locales
+75% descargan y utilizan apps
+67% descargas gratuitas]]></text>
+        <w>381.25</w>
+        <h>123.4</h>
+        <annotations>r0-22 { bullet: true; }
+r0-22 { align: left; }
+r0-22 { blockIndent: 36; }
+r22-54 { bullet: true; }
+r22-54 { align: left; }
+r22-54 { blockIndent: 36; }
+r54-84 { bullet: true; }
+r54-84 { align: left; }
+r54-84 { blockIndent: 36; }
+r84-107 { bullet: true; }
+r84-107 { align: left; }
+r84-107 { blockIndent: 36; }</annotations>
+      </textfield>
+    </object>
+    <object id="4_4387985" type="label" x="-9200.05" y="13070.05" r="-5.006877277463996" s="8.012830102619997" class="head">
+      <textfield>
+        <x>-36.9</x>
+        <y>-16.9</y>
+        <text><![CDATA[262.469]]></text>
+        <annotations>r0-7 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="6_4387985" type="shape" x="-9328.15" y="12804.65" r="-94.99006660254564" s="3.4067126419510743" class="line4">
+      <geom type="arrow">
+        <sp>40.62983575045427 0</sp>
+        <ep>-40.62983575045427 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="7_4387985" type="label" x="-9029.1" y="13308.5" r="-5.019949568882854" s="5.725116349691942" class="head">
+      <textfield>
+        <x>-39.75</x>
+        <y>-16.9</y>
+        <text><![CDATA[España]]></text>
+        <annotations>r0-6 { color: #318bff; }
+r0-6 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_4387985" type="shape" x="-9012.5" y="13610.05" r="84.039786874795" s="3.4051365868237475" class="line4">
+      <geom type="arrow">
+        <sp>-39.27503182684897 0</sp>
+        <ep>39.27503182684897 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="9_4387985" type="label" x="-9025.4" y="13862.65" r="-5.019949646896977" s="8.01516222038486" class="head">
+      <textfield>
+        <x>-34.65</x>
+        <y>-16.9</y>
+        <text><![CDATA[+ 1,5 M]]></text>
+        <annotations>r0-7 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_4392539" type="label" x="-9067.682613005369" y="14582.487776852917" r="-5.002550269420247" s="5.721728582978285" class="head">
+      <textfield>
+        <x>-154.95</x>
+        <y>-16.9</y>
+        <text><![CDATA[1.801.587 páginas vistas/mes]]></text>
+        <w>309.9</w>
+        <h>33.85</h>
+        <annotations>r0-28 { color: #318bff; }
+r0-28 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="7_4392539" type="label" x="-12415.9" y="14283.65" r="-5.006828885656956" s="5.723440418427446" class="head">
+      <textfield>
+        <x>-60.35</x>
+        <y>-16.9</y>
+        <text><![CDATA[Pronóstico]]></text>
+        <annotations>r0-10 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_4392539" type="label" x="-10142.45" y="16034.7" r="-5.0034561338844235" s="4.085729309853579" class="head">
+      <textfield>
+        <x>-249</x>
+        <y>-106.45</y>
+        <text><![CDATA[Precio = 0€
+Distribución: canal on-line
+Publicidad en blogs, webs especializadas,…
+Boca-a-boca
+Incentivar participación con regalos
+Campaña lanzamiento: vídeo promocional
+Comunicación: mailing, twitter,…]]></text>
+        <annotations>r0-12 { bullet: true; }
+r0-12 { align: left; }
+r0-12 { blockIndent: 36; }
+r12-40 { bullet: true; }
+r12-40 { align: left; }
+r12-40 { blockIndent: 36; }
+r40-83 { bullet: true; }
+r40-83 { align: left; }
+r40-83 { blockIndent: 36; }
+r83-95 { bullet: true; }
+r83-95 { align: left; }
+r83-95 { blockIndent: 36; }
+r95-132 { bullet: true; }
+r95-132 { align: left; }
+r95-132 { blockIndent: 36; }
+r132-171 { bullet: true; }
+r132-171 { align: left; }
+r132-171 { blockIndent: 36; }
+r171-203 { bullet: true; }
+r171-203 { align: left; }
+r171-203 { blockIndent: 36; }</annotations>
+      </textfield>
+    </object>
+    <object id="3_360657" type="button" x="-1105.524566087336" y="-30540.0552109856" r="-5.019362348679103" s="28.495410170986123" class="circle">
+      <type>circle</type>
+      <size>
+        <w>144.8</w>
+        <h>144.8</h>
+      </size>
+    </object>
+    <object id="0_13064399" type="button" x="-7202.15" y="5605.25" r="-5.019569391387571" s="3.6477426214696713">
+      <type>invisible</type>
+      <size>
+        <w>924.3610576923077</w>
+        <h>907.0062499999998</h>
+      </size>
+    </object>
+    <object id="1_360657" type="button" x="-7867.7" y="4749.350000000001" r="-5.019568911966141" s="5.293996713155596" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="2_360657" type="button" x="-6662.75" y="4644.150000000001" r="-5.019568911966141" s="5.293996713155596" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="4_360657" type="shape" x="-7309.399999999999" y="4273.65" r="-5.020809610804735" s="1.8977912341787189">
+      <geom type="line">
+        <sp>-261.6007715213695 33.974999999999994</sp>
+        <ep>261.6007715213695 33.974999999999994</ep>
+        <b>-67.95</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="0_12135600" type="image" x="-7867.05" y="4749.350000000001" r="-5.003244709251084" s="2.5498920904265825">
+      <source w="200" h="200">173230854.jpg<url>173230854.jpg</url>
+        <mask x="0" y="0" w="169" h="200"/>
+      </source>
+      <sourceUrl>edgar.jpg</sourceUrl>
+    <resource><id>
+        173230854
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/c/e/eb849fb439858c2e375d7fec1685a77d1e237.jpg</url></resource></object>
+    <object id="1_12135600" type="image" x="-6663.8" y="4643.7" r="-5.002536899234992" s="2.634945380821166">
+      <source w="159" h="191">173230994.jpg<url>173230994.jpg</url>
+      </source>
+      <sourceUrl>miquel.jpg</sourceUrl>
+    <resource><id>
+        173230994
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/e/e/fa3435bc6077eedbbff7a6fbe73d37cb62dbb.jpg</url></resource></object>
+    <object id="18_360657" type="button" x="-8481.75" y="5939.500000000001" r="25.294015748662584" s="3.7403986918299994" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="19_360657" type="button" x="-7951.55" y="6146.800000000001" r="25.294015748662584" s="3.7403986918299994" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="20_360657" type="button" x="-7413.7" y="5926.700000000001" r="25.294015748662584" s="3.7403986918299994" class="circle">
+      <type>circle</type>
+      <size>
+        <w>144.8</w>
+        <h>144.8</h>
+      </size>
+    </object>
+    <object id="21_360657" type="shape" x="-7983.55" y="5589.800000000001" r="1.07882370304191" s="0.9581221581398008">
+      <geom type="line">
+        <sp>-449.2615833371028 105.43749999999999</sp>
+        <ep>449.2615833371028 105.43749999999999</ep>
+        <b>-210.87499999999997</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="22_360657" type="shape" x="-7944" y="5509.000000000001" r="92.96868254148052" s="1.0777147362888826">
+      <geom type="line">
+        <sp>-356.9865078376543 0</sp>
+        <ep>356.98650783765436 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="23_360657" type="label" x="-8481.500000000002" y="5939.850000000001" r="-4.019295413649461" s="4.088932740794571" class="strong">
+      <textfield>
+        <x>-40.15</x>
+        <y>-19.15</y>
+        <text><![CDATA[Diseñador]]></text>
+        <w>80.35</w>
+        <h>38.35</h>
+        <annotations>r0-9 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="24_360657" type="label" x="-7937.05" y="6147.100000000001" r="-4.005661015509525" s="4.0879959531720225" class="strong">
+      <textfield>
+        <x>-47.45</x>
+        <y>-19.15</y>
+        <text><![CDATA[Maquetador]]></text>
+        <w>94.9</w>
+        <h>38.35</h>
+        <annotations>r0-10 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="25_360657" type="label" x="-7413.6" y="5925.95" r="-4.019295413649461" s="4.088932740794571" class="strong">
+      <textfield>
+        <x>-48.65</x>
+        <y>-19.15</y>
+        <text><![CDATA[Programador]]></text>
+        <w>97.3</w>
+        <h>38.35</h>
+        <annotations>r0-11 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="26_360657" type="button" x="-6840.05" y="5775.500000000001" r="-4.019312573705936" s="3.776390823651681" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="27_360657" type="button" x="-6325.099999999999" y="6016.95" r="-4.019312573705936" s="3.776390823651681" class="circle">
+      <type>circle</type>
+      <size>
+        <w>147.6</w>
+        <h>147.6</h>
+      </size>
+    </object>
+    <object id="28_360657" type="button" x="-5874.9" y="5668" r="-4.019312573705936" s="3.776390823651681" class="circle">
+      <type>circle</type>
+      <size>
+        <w>144.8</w>
+        <h>144.8</h>
+      </size>
+    </object>
+    <object id="29_360657" type="shape" x="-6393.3" y="5387.750000000001" r="-5.0165294811286225" s="0.96734490007404">
+      <geom type="line">
+        <sp>-417.10286288169306 89.14999999999999</sp>
+        <ep>417.102862881693 89.14999999999999</ep>
+        <b>-178.29999999999998</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="30_360657" type="shape" x="-6464.5" y="5382.950000000001" r="74.59245713238609" s="1.0880900080918947">
+      <geom type="line">
+        <sp>-362.52125763898454 0</sp>
+        <ep>362.5212576389846 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="31_360657" type="label" x="-6840.6" y="5775.350000000001" r="-4.019295100643372" s="4.128275107157514" class="strong">
+      <textfield>
+        <x>-39.6</x>
+        <y>-19.15</y>
+        <text><![CDATA[SEO/SEM]]></text>
+        <w>79.2</w>
+        <h>38.35</h>
+        <annotations>r0-7 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="32_360657" type="label" x="-6330.1" y="6016.85" r="-4.019295100643372" s="4.128275107157514" class="strong">
+      <textfield>
+        <x>-46.15</x>
+        <y>-19.15</y>
+        <text><![CDATA[Maquetador]]></text>
+        <w>92.3</w>
+        <h>38.35</h>
+        <annotations>r0-10 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="33_360657" type="label" x="-5874.500000000001" y="5668.250000000001" r="-4.019295100643372" s="4.128275107157514" class="strong">
+      <textfield>
+        <x>-50.15</x>
+        <y>-19.15</y>
+        <text><![CDATA[Programador]]></text>
+        <w>100.3</w>
+        <h>38.35</h>
+        <annotations>r0-11 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="7_4400702" type="label" x="11436.1" y="5933.35" r="-5.02001643678252" s="21.99993400157839" class="head">
+      <textfield>
+        <x>-7</x>
+        <y>-16.9</y>
+        <text><![CDATA[+]]></text>
+        <annotations>r0-1 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_4400702" type="label" x="11587.8" y="7332.8" r="-5.0200065862801555" s="27.692394472949402" class="head">
+      <textfield>
+        <x>-7</x>
+        <y>-16.9</y>
+        <text><![CDATA[=]]></text>
+        <annotations>r0-1 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="9_4400702" type="label" x="11613.2" y="7937.6" r="-5.006861537769701" s="27.68436232379289" class="head">
+      <textfield>
+        <x>-25</x>
+        <y>-16.9</y>
+        <text><![CDATA[$$$]]></text>
+        <w>50</w>
+        <h>33.85</h>
+        <annotations>r0-3 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="1_13064399" type="button" x="-7367.45" y="3414.2" r="-5.006272703751705" s="1.5165275119191202">
+      <type>invisible</type>
+      <size>
+        <w>1070.523554913295</w>
+        <h>627.2249999999999</h>
+      </size>
+    </object>
+    <object id="0_185571" type="label" x="-7387.95" y="3506.5" r="-5.020009226864659" s="4.83589993148708" class="head">
+      <textfield>
+        <x>-117.85</x>
+        <y>-61.7</y>
+        <text><![CDATA[SLNE
+rápida gestión
+bajo coste
+socios autónomos]]></text>
+        <annotations>r0-5 { bullet: true; }
+r0-5 { align: left; }
+r0-5 { blockIndent: 36; }
+r5-20 { bullet: true; }
+r5-20 { align: left; }
+r5-20 { blockIndent: 36; }
+r20-31 { bullet: true; }
+r20-31 { align: left; }
+r20-31 { blockIndent: 36; }
+r31-47 { bullet: true; }
+r31-47 { align: left; }
+r31-47 { blockIndent: 36; }</annotations>
+      </textfield>
+    </object>
+    <object id="1_185571" type="label" x="-7469.5" y="3088.75" r="-5.020009115495183" s="6.7702601901299" class="head">
+      <textfield>
+        <x>-81.5</x>
+        <y>-16.9</y>
+        <text><![CDATA[Forma jurídica]]></text>
+        <w>163.05</w>
+        <h>33.85</h>
+        <annotations>r0-14 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="2_185571" type="label" x="8653.05" y="15188.65" r="-5.020013807853825" s="9.47841114861266" class="head">
+      <textfield>
+        <x>-25.45</x>
+        <y>-16.9</y>
+        <text><![CDATA[2012]]></text>
+        <annotations>r0-4 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="3_185571" type="label" x="9637.9" y="15102.7" r="-5.02000461600715" s="9.475706511181944" class="head">
+      <textfield>
+        <x>-25.1</x>
+        <y>-16.9</y>
+        <text><![CDATA[2013]]></text>
+        <w>50.2</w>
+        <h>33.85</h>
+        <annotations>r0-4 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="4_185571" type="label" x="10697.1" y="15009.15" r="-5.020010288657616" s="9.47300113235991" class="head">
+      <textfield>
+        <x>-25.15</x>
+        <y>-16.9</y>
+        <text><![CDATA[2014]]></text>
+        <annotations>r0-4 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="5_185571" type="label" x="11778.2" y="14913.45" r="-5.019999575928055" s="9.470299344977963" class="head">
+      <textfield>
+        <x>-25.1</x>
+        <y>-16.9</y>
+        <text><![CDATA[2015]]></text>
+        <w>50.2</w>
+        <h>33.85</h>
+        <annotations>r0-4 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="6_185571" type="label" x="10278.5" y="15905.05" r="-5.020010288657616" s="9.47300113235991" class="head">
+      <textfield>
+        <x>-77.4</x>
+        <y>-16.9</y>
+        <text><![CDATA[VAN = 184.025,5]]></text>
+        <annotations>r0-15 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="7_185571" type="label" x="10303.4" y="16225.65" r="-5.019999575928055" s="9.470299344977963" class="head">
+      <textfield>
+        <x>-51</x>
+        <y>-16.9</y>
+        <text><![CDATA[TIR = 0,33]]></text>
+        <annotations>r0-10 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_185571" type="label" x="8633.35" y="15529.35" r="-5.02000461600715" s="9.475706511181944" class="head">
+      <textfield>
+        <x>-46.7</x>
+        <y>-16.9</y>
+        <text><![CDATA[38.943,8€]]></text>
+        <annotations>r0-9 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="9_185571" type="label" x="9669.75" y="15437.15" r="-5.020010288657616" s="9.47300113235991" class="head">
+      <textfield>
+        <x>-48</x>
+        <y>-16.9</y>
+        <text><![CDATA[48.350,4€]]></text>
+        <annotations>r0-9 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="10_185571" type="label" x="10728.25" y="15344.2" r="-5.019999575928055" s="9.470299344977963" class="head">
+      <textfield>
+        <x>-46.1</x>
+        <y>-16.9</y>
+        <text><![CDATA[62.076,5€]]></text>
+        <annotations>r0-9 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="11_185571" type="label" x="11769.45" y="15254.6" r="-5.020003230297643" s="9.467597766220726" class="head">
+      <textfield>
+        <x>-45.65</x>
+        <y>-16.9</y>
+        <text><![CDATA[78.646,8€]]></text>
+        <w>91.3</w>
+        <h>33.85</h>
+        <annotations>r0-9 { align: right; }</annotations>
+      </textfield>
+    </object>
+    <object id="12_185571" type="label" x="10104.95" y="14773.65" r="-5.020010288657617" s="9.47300113235991" class="head">
+      <textfield>
+        <x>-121.45</x>
+        <y>-16.9</y>
+        <text><![CDATA[Beneficios estimados]]></text>
+        <w>242.95</w>
+        <h>33.85</h>
+        <annotations>r0-20 { color: #318bff; }
+r0-20 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_12129978" type="label" x="10096.5" y="13795.25" r="-5.01997951068938" s="13.258397422021654" class="head">
+      <textfield>
+        <x>-142.75</x>
+        <y>-16.9</y>
+        <text><![CDATA[Inversión inicial 12.179,15€]]></text>
+        <annotations>r0-17 { color: #318bff; }
+ r0-28 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="1_12129978" type="label" x="-11702.25" y="12623.4" r="-5.006828885656956" s="5.723440418427446" class="head">
+      <textfield>
+        <x>-86</x>
+        <y>-16.9</y>
+        <text><![CDATA[Público objetivo]]></text>
+        <annotations>r0-16 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="2_12135600" type="label" x="10075.3" y="14337.6" r="-5.006846385060245" s="9.470240738916914" class="head">
+      <textfield>
+        <x>-220.85</x>
+        <y>-16.9</y>
+        <text><![CDATA[Ingresos 2012 107.014,3 + 8.406 = 115.420 €]]></text>
+        <annotations>r0-14 { color: #318bff; }
+ r34-43 { color: #318bff; }
+r0-43 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_12857660" type="label" x="-7914.9" y="4278.250000000001" r="-5.0199431465079245" s="5.7856196290207125" class="head">
+      <textfield>
+        <x>-19.85</x>
+        <y>-16.9</y>
+        <text><![CDATA[50%]]></text>
+        <annotations>r0-3 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="1_12857660" type="label" x="-6694.300000000001" y="4170.400000000001" r="-5.0199431465079245" s="5.7856196290207125" class="head">
+      <textfield>
+        <x>-19.85</x>
+        <y>-16.9</y>
+        <text><![CDATA[50%]]></text>
+        <annotations>r0-3 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="0_5132805" type="button" x="-11649.2" y="13308" r="0" s="2.7752115726470947">
+      <type>invisible</type>
+      <size>
+        <w>652.7472527472527</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="1_5132805" type="button" x="-9625.75" y="13166.15" r="0" s="2.8328733444213867">
+      <type>invisible</type>
+      <size>
+        <w>731.8965517241379</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="5_13275006" type="label" x="-7895.15" y="5351.25" r="-5.0059390860917725" s="4.128274974805501" class="head">
+      <textfield>
+        <x>-127.35</x>
+        <y>-16.9</y>
+        <text><![CDATA[Dirección  tecnológica]]></text>
+        <w>254.7</w>
+        <h>33.85</h>
+        <annotations>r0-22 { color: #318bff; }
+r0-22 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="7_13275006" type="label" x="-6514" y="5168.95" r="-5.019569225820295" s="4.128274955620598" class="head">
+      <textfield>
+        <x>-119.5</x>
+        <y>-16.9</y>
+        <text><![CDATA[Dirección  comercial]]></text>
+        <w>239.05</w>
+        <h>33.85</h>
+        <annotations>r0-20 { color: #318bff; }
+r0-20 { align: center; }</annotations>
+      </textfield>
+    </object>
+    <object id="8_13275006" type="label" x="-7085.65" y="6770.85" r="-5.020012989337461" s="18.57758285577738" class="head">
+      <textfield>
+        <x>-27.1</x>
+        <y>-16.9</y>
+        <text><![CDATA[1+1=3]]></text>
+        <annotations>r0-5 { align: left; }</annotations>
+      </textfield>
+    </object>
+    <object id="9_13275006" type="label" x="10380.95" y="16418.2" r="-5.020040116499936" s="6.764490584242439" class="head">
+      <textfield>
+        <x>-127</x>
+        <y>-16.9</y>
+        <text><![CDATA[(tasa actualización 2%)]]></text>
+        <annotations>r0-23 { align: left; }</annotations>
+      </textfield>
+    </object>
+  </zui-table>
+  <path>
+    <o>21</o>
+    <o>3_4382269</o>
+    <o>0_4380890</o>
+    <o>0_5132805</o>
+    <o>1_5132805</o>
+    <o>2_5132805</o>
+    <o>3_5132805</o>
+    <o>2_4380890</o>
+    <o>1_13064399</o>
+    <o>0_13064399</o>
+    <o>6_4380890</o>
+    <o>2_12857660</o>
+    <o>3_12857660</o>
+    <o>7_4382269</o>
+    <o>21</o>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('LoveYaLikeASister.swf');
+	fontFamily: head;
+}
+
+@font-face
+{
+	src: url('AnnieUseYourTelescope.swf');
+	fontFamily: strong;
+}
+
+@font-face
+{
+	src: url('PTSans.swf');
+	fontFamily: body;
+}
+
+background
+{
+	gradEnd: #808080;
+	gradStart: #808080;
+}
+
+text
+{
+	padding: 1.2;
+}
+
+text.title
+{
+	fontFamily: head;
+	color: #fff808;
+}
+
+text.subtitle
+{
+	fontFamily: strong;
+	color: #fff;
+}
+
+text.body
+{
+	fontFamily: body;
+	color: #fff;
+}
+
+frame.circle
+{
+	gradEndColor: #333;
+	borderColor: #999;
+	gradStartColor: #333;
+	borderThickness: 0;
+}
+
+frame.bracket
+{
+	thickness: 7;
+	gradEndColor: #c5c3c3;
+	borderColor: #fff;
+	gradStartColor: #fff;
+	borderThickness: 0;
+}
+
+frame.rectangle
+{
+	radius: 0;
+	gradEndColor: #000;
+	borderColor: #fff;
+	gradStartColor: #000;
+	borderThickness: 0;
+}
+
+arrow
+{
+	gradEndColor: #fff808;
+	borderColor: #fff;
+	gradStartColor: #fff808;
+	borderThickness: -1;
+}
+
+line
+{
+	color: #fff808;
+}
+
+line-arrow.style1
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+line-arrow.style2
+{
+	color: #c5c3c3;
+	gradEndColor: #c5c3c3;
+	gradStartColor: #c5c3c3;
+}
+
+line-arrow.style3
+{
+	color: #fff808;
+	gradEndColor: #fff808;
+	gradStartColor: #fff808;
+}
+
+line-arrow.style4
+{
+	color: #333;
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+line-arrow.style5
+{
+	color: #000;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+circle
+{
+	lockTintAlpha: 0.6;
+	radius: 0;
+	thickness: 100;
+	borderAlpha: 1;
+}
+
+shape
+{
+	borderAlpha: 1;
+	thickness: 100;
+	gradEndAlpha: 0.8;
+	lockTintAlpha: 0.6;
+	radius: 0;
+	gradStartAlpha: 0.7;
+}
+
+shape.style1
+{
+	gradEndColor: #fff;
+	borderColor: #fff;
+	gradStartColor: #fff;
+	borderThickness: 0;
+}
+
+shape.style2
+{
+	gradEndColor: #c5c3c3;
+	borderColor: #c5c3c3;
+	gradStartColor: #c5c3c3;
+	borderThickness: 0;
+}
+
+shape.style3
+{
+	gradEndColor: #fff808;
+	borderColor: #fff808;
+	gradStartColor: #fff808;
+	borderThickness: 0;
+}
+
+shape.style4
+{
+	gradEndColor: #333;
+	borderColor: #333;
+	gradStartColor: #333;
+	borderThickness: 0;
+}
+
+shape.style5
+{
+	gradEndColor: #000;
+	borderColor: #000;
+	gradStartColor: #000;
+	borderThickness: 0;
+}
+
+free-line
+{
+	color: #fff808;
+}
+
+free-marker
+{
+	alpha: 0.3;
+	color: #ffff0d;
+}
+
+grid
+{
+	color: #ddd;
+}
+
+ZCircle
+{
+	thickness: 100;
+	gradEndColor: #000;
+	borderColor: #000;
+	gradStartColor: #000;
+	borderThickness: 3;
+}
+
+ZPoly
+{
+	gradEndColor: #000;
+	borderColor: #000;
+	gradStartColor: #000;
+	borderThickness: 3;
+}
+
+Background
+{
+	gradEnd: #ffef6f;
+	gradStart: #ffc;
+}
+
+ZLabel
+{
+	padding: 1.2;
+}
+
+ZLabel.head
+{
+	fontFamily: head;
+	color: #000;
+}
+
+.line5
+{
+	gradStartColor: #fff;
+	gradEndColor: #fff;
+}
+
+.poly5
+{
+	gradStartColor: #fff;
+	gradEndColor: #fff;
+}
+
+ZLabel.strong
+{
+	fontFamily: strong;
+	color: #000;
+}
+
+.line1
+{
+	gradStartColor: #000;
+	gradEndColor: #000;
+}
+
+.poly1
+{
+	gradStartColor: #000;
+	gradEndColor: #000;
+}
+
+ZLabel.body
+{
+	fontFamily: body;
+	color: #000;
+}
+
+ZFrame.circle
+{
+	gradEndColor: #fff;
+	borderColor: #fff;
+	gradStartColor: #fff;
+	borderThickness: 0;
+}
+
+.line4
+{
+	gradStartColor: #ffe400;
+	gradEndColor: #ffe400;
+}
+
+.poly4
+{
+	gradStartColor: #ffe400;
+	gradEndColor: #ffe400;
+}
+
+ZFrame.bracket
+{
+	gradEndColor: #fff;
+	borderColor: #fff;
+	gradStartColor: #fff;
+	borderThickness: 0;
+}
+
+.line2
+{
+	gradStartColor: #460081;
+	gradEndColor: #460081;
+}
+
+.poly2
+{
+	gradStartColor: #460081;
+	gradEndColor: #460081;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #fff;
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	borderThickness: 0;
+}
+
+ZArrow
+{
+	gradEndColor: #000;
+	borderColor: #000;
+	gradStartColor: #000;
+	borderThickness: 3;
+}
+
+.line3
+{
+	gradStartColor: #f00;
+	gradEndColor: #f00;
+}
+
+.poly3
+{
+	gradStartColor: #f00;
+	gradEndColor: #f00;
+}
+
+ZLine
+{
+	color: #000;
+}
+
+ZCurveLine
+{
+	color: #000;
+}
+
+ZMarker
+{
+	color: #ffff0d;
+}
+
+Grid
+{
+	color: #c9b800;
+}
+
+ZPath
+{
+	thickness: 3;
+	color: #40abe6;
+	alpha: 1;
+	textColor: #fff;
+}
+
+ZPath Ball.mid
+{
+	radius: 8;
+	fillColor: #40abe6;
+	alpha: .5;
+}
+
+ZPath Ball.base
+{
+	radius: 12;
+	fillColor: #40abe6;
+	alpha: 1;
+}
+
+]]></style>
+  <hash>478d823f548a7580372d09808b681890</hash>
+<sync><oid>brszg-4uozu5</oid><hash>478d823f548a7580372d09808b681890</hash></sync><config>c4Z0VGTmITgu9bhLY9+jeW+tk8jqX8WO480Se3PetSe7NgBfl6Bzeaogb977wao0WbYOZDU50HBbl+3MZFHNzmRtUxDrwnYzcMFbxWw5vDcotMh4P0FUd58ftmTHEpjeojV9GtPMHu/L1+bXMfOewmolv/rXlVciX2skKCWQ4DEczxjarD4nQnjkasXGi+ES5URHgT3A5W6Jp8/55Q7x0ePDEPJ539NopCx6Pj1F4EI/8LK+V1QEuwiymJPJtQOQzywlux6ZxQtdduZiAjZ54wSpi2KTjOPEgTz7Yup62DRrzxm7wrbUJb2K96Re7VKPB5DOxYLsMtg+tNxZUXSB6w==</config></zuiprezi>
